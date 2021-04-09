@@ -2,4 +2,101 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+#header{
+    height: 100vh;
+    background-image: url('/assets/img/background.png');
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logo{
+    margin-top: 30px;
+    width: 100px;
+
+}
+.header-text{
+    max-width: 350px;
+    margin-top: 140px;
+
+}
+h1{
+    font-size: 34px;
+}
+.square{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #f67c92;
+    margin: 15px 0 ;
+}
+.btn-commont{
+    padding: 18px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+}
+p{
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+    margin-bottom: 10px;
+}
+.header-text button{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.line-one{
+    width: 15px;
+    height: 15px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line-two{
+    width: 80px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line-three{
+    width: 60px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line{
+    line-height: 8px;
+}
+#sideNav{
+width: 250px;
+height: 100vh;
+position: fixed;
+right: -250px;
+top: 0;
+background: #f67c92;
+z-index: 2;
+}
+nav ul li{
+    list-style-type: none;
+    margin : 25px 25px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #ffff;
+  cursor: pointer;
+}
+#menuBtn
+{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 10px;
+    z-index: 2;
+    cursor: pointer;
 }
