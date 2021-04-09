@@ -28,15 +28,19 @@ nav .menu ul li  a{
 nav .social ul{
     display: flex;
     list-style-type: none;
-    float: left;
+    margin-right: 25px;
 }
 nav .social ul li {
     margin-left: 20px;
     margin-top: 10px;
     font-size: 30px;
+    
 }
 nav .social ul li:hover{
     color: blue;
+    border-radius: 10px;
+    transform: rotate(360deg);
+    transition:all 0.5s;
 }
 .container
 {
@@ -76,8 +80,10 @@ margin-top: 15px;
     margin-bottom: 5px;
     background:#8a98a6 ;
     padding: 15px;
-    border:1px solid #fff;
+    border:1px solid #8a98a6;
     border-radius: 10px;
+    margin-right: 25px;
+    font-size: 15px;
  }   
  .button button:hover{
      background: #fff;
