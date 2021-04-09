@@ -45,8 +45,8 @@ nav .social ul li:hover{
 .container
 {
     width: 100%;
-    height: 600px;
-    background-image: linear-gradient(rgba(252, 252, 252, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/background.png');
+    height: 810px;
+    background-image: linear-gradient(rgb(142 42 42 / 50%), rgb(0 0 0 / 50%)), url('/assets/img/background.png');
 }
 .container  .row {
     display: flex;
